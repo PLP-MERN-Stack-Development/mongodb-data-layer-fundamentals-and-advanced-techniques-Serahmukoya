@@ -34,8 +34,8 @@ async function main() {
   console.log(" Price updated for Book One");
 
   // Delete a book by its title
-  await Book.deleteOne({ title: "Book Ten" });
-  console.log(" Book Ten deleted"); 
+  await Book.deleteOne({ title: "Book Twelve" });
+  console.log(" Book Twelve deleted"); 
 
 //Task 3
    books = await Book.find({
